@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulario Detran</title>
+</head>
+
+<body>
+    <header>
+        <h1>Preencha o Formulario</h1>
+    </header>
+    <main class="principal-contato">
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" class="input-padrao" required>
+
+            <label for="profissao">Profissão</label>
+            <input type="text" id="profissao" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="datapreenchimento">Data de Preenchimento</label>
+            <input type="date" id="datapreenchimento" class="input-padrao" required>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+    </main>
+</body>
+
+</html>
